@@ -1,0 +1,823 @@
+body {
+    background-color: #FEF9F2;
+    font-family: "Sora", sans-serif;
+}
+
+header {
+    position: fixed;
+    background-color: #FFFAF3;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 25px 0;
+    top: -9px;
+}
+
+header::shadow {
+    color: black;
+    background-color: #0e0a05;
+}
+
+header img {
+    width: 14%;
+}
+
+header select {
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-family: "Sora", sans-serif;
+}
+
+select:hover {
+    color: #E60A14;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    color: #E60A14;
+    text-decoration-line: underline;
+}
+
+header input {
+    width: 90px;
+    background: none;
+    border-color: gainsboro;
+}
+
+#Gomycode {
+    margin: 0 2%;
+    background-color: #EEE8DF;
+    margin-top: 66px;
+    border-radius: 30px;
+}
+
+#Gomycode #haut {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Gomycode #img1 {
+    margin-top: 6%;
+    margin-bottom: 40%;
+    margin-left: 5%;
+    margin-right: -5%;
+    width: 50%;
+}
+
+#Gomycode h1 {
+    font-size: 75px;
+    text-align: center;
+    font-family: "Sora", sans-serif;
+}
+
+#Gomycode #img2 {
+    margin-bottom: 55%;
+    margin-right: -10%;
+}
+
+#ca {
+    height: 40px;
+    margin-top: 21%;
+}
+
+#Gomycode #img3 {
+    margin-top: 22%;
+    margin-right: 15%;
+    margin-left: -15%;
+    margin-bottom: 40%;
+    width: 20%;
+}
+
+#bas {
+    margin-top: -40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -8%;
+}
+
+#Gomycode h2 {
+    font-size: 45px;
+    width: 350px;
+    left: 15%;
+    margin-left: 18%;
+}
+
+#fleche {
+    height: 50px;
+    width: 90px;
+    margin-top: 28px;
+}
+
+#Gomycode h3 {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 400;
+    width: 400px;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+#Gomycode button {
+    background-color: #E60A14;
+    color: #EEE8DF;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 53.8%;
+    margin-top: 2%;
+    bottom: 20%;
+    padding: 15px 15px;
+    margin-bottom: 8%;
+}
+
+#Gomycode button:hover {
+    cursor: pointer;
+}
+
+#img4 {
+    margin-top: -58px;
+    margin-left: 80px;
+}
+
+#Partenaires {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#Partenaires h1 {
+    font-size: 42px;
+    width: 400px;
+    margin-left: 6%;
+    line-height: 50px;
+}
+
+#Partenaires img {
+    margin-left: -5%;
+    margin-right: 3%;
+    width: 50%;
+    padding: 2% 2% 5% 0;
+}
+
+#programmes {
+    border-radius: 30px;
+    margin: 0 2%;
+    background-color: #1A0AB3;
+}
+
+#programmes #metier {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+#metier h1 {
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 6%;
+    width: 550px;
+}
+
+#metier p {
+    font-size: 29px;
+    line-height: 31px;
+    font-weight: 400;
+    width: 594px;
+    margin-right: 2%;
+    margin-top: 6%;
+}
+
+#programmes button {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 47.5%;
+    padding: 12px 18px;
+    margin-bottom: 8%;
+}
+
+#programmes button:hover {
+    cursor: pointer;
+}
+
+#programmes #container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#container div {
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 250px;
+    margin-bottom: 8%;
+}
+
+#container div img {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#container div h1 {
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 6%;
+    color: white;
+    margin-left: 10%;
+}
+
+#container div nav {
+    margin-left: 10%;
+    margin-bottom: 8%;
+}
+
+#container div nav a {
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 400;
+    color: white;
+}
+
+#carriere {
+    border-radius: 30px;
+    margin: 3% 5% 0 5%;
+    background-color: #0F0F0F;
+}
+
+#carriere #passion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+#passion h1 {
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 6%;
+    width: 550px;
+}
+
+#passion p {
+    font-size: 29px;
+    line-height: 31px;
+    font-weight: 400;
+    width: 594px;
+    margin-right: 2%;
+    margin-top: 6%;
+}
+
+#container2 {
+    margin: 5% 5% 0 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+#container2 div {
+    border-radius: 20px;
+    background-color: #14171B;
+}
+
+#container2 div img {
+    width: 215px;
+    border-radius: 40%;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+#container2 div img:hover {
+    cursor: pointer;
+}
+
+#container2 div h1 {
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 6%;
+    color: #E40B14;
+    margin-left: 13%;
+    font-weight: 400;
+}
+
+#container2 div h1:hover {
+    color: #0e0a05;
+    cursor: pointer;
+}
+
+#container2 div h2 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 6%;
+    color: #fffaf3;
+    margin-left: 10%;
+    font-weight: 600;
+}
+
+#container2 div h2:hover {
+    color: #E60A17;
+    cursor: pointer;
+}
+
+#carriere button {
+    margin: 5% 45%;
+    font-size: 18px;
+    line-height: 24px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+#carriere button:hover {
+    cursor: pointer;
+}
+
+#etudiant {
+    margin: 8% 0 0 7%;
+    display: flex; 
+}
+
+#etudiant h1 {
+    font-size: 42px;
+    line-height: 50px;
+    width: 800px;
+}
+
+#etudiant main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-left: 10%;
+    overflow: scroll;
+}
+
+#etudiant main::-webkit-scrollbar {
+    display: none;
+}
+
+#etudiant main div {
+    display: flex;
+    width: 520px;
+    height: 250px;
+    background-color: #EEE8DF;
+    border-radius: 20px;
+}
+
+#etudiant main div img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#etudiant main div article {
+    font-size: 17px;
+    line-height: 28px;
+    margin-left: 2%;
+}
+
+#infos {
+    border-radius: 30px;
+    margin: 11% 5% 0 5%;
+}
+
+#infos main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+#infos main img {
+    width: 40%;
+    height: 32%;
+}
+
+#infos main div {
+    width: 58%;
+    background-color: #EEE8DF;
+    border-radius: 15px;
+}
+
+#infos main div h1 {
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#infos main div p {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+#infos main div button {
+    margin-left: 0.05%;
+    margin-right: 3%;
+    margin-top: 8%;
+    font-size: 18px;
+    line-height: 24px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+#infos main div button:hover {
+    cursor: pointer;
+}
+
+#experience {
+    border-radius: 20px;
+    margin: 0 2%;
+    background-color: #0F0F0F;
+}
+
+#experience #above {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 2%;
+}
+
+#experience #above div {
+    border-style: solid;
+    color: white;
+    margin: 4% 0 2% 0;
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+#experience #above div img {
+    width: 45px;
+    margin: 5% 0 0 5%;
+}
+
+#experience #above div h1 {
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 10%;
+    margin-left: 13%;
+    font-weight: 400;
+}
+
+#experience #above div h2 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 6%;
+    margin-left: 13%;
+    font-weight: 300;
+}
+
+#experience #between {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 4%;
+    color: white;
+}
+
+#experience #between h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    width: 550px;
+}
+
+#experience #between p {
+    font-size: 29px;
+    line-height: 31px;
+    font-weight: 400;
+    width: 594px;
+    margin-right: 2%;
+}
+
+#experience button {
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 47.9%;
+    padding: 12px 18px;
+    margin-bottom: 4%;
+    margin-top: -2%;
+}
+
+#experience button:hover {
+    cursor: pointer;
+}
+
+#experience #below {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#experience #below iframe {
+    margin-bottom: 5%;
+}
+
+#monde {
+    border-radius: 20px;
+    margin: 0 2%;
+}
+
+#monde #pre {
+    display: flex;
+    justify-content: space-between;
+    margin: 6% 6% 0 6%;
+    color: black;
+}
+
+#monde #pre h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    width: 500px;
+}
+
+#monde #pre p {
+    font-size: 29px;
+    line-height: 31px;
+    font-weight: 400;
+    width: 600px;
+    margin-right: 2%;
+}
+
+#monde #bbutton {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 45.4%;
+    padding: 12px 18px;
+    margin-bottom: 4%;
+    margin-top: -2%;
+}
+
+#monde main {
+    margin: 0 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#monde main div {
+    border-radius: 20px;
+    width: 350px;
+}
+
+#monde main div img {
+    width: 350px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+#monde main div h1 {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 700;
+}
+
+#monde main div h2 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: -4%;
+}
+
+#monde main div button {
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+#monde main div button:hover {
+    cursor: pointer;
+}
+
+#fiche {
+    display: flex;
+    justify-content: space-between;
+    margin: 8% 6% 7% 6%;
+}
+
+#fiche div {
+    border-radius: 15px;
+    background-color: #EEE8DF;
+    width: 550px;
+}
+
+#fiche div h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-right: 40%;
+}
+
+#fiche div h5 {
+    font-size: 16px;
+    line-height: 5px;
+    font-weight: 400;
+    margin-left: 4%;
+}
+
+#fiche div input {
+    background: none;
+    border: none;
+    font-size: 14px;
+    line-height: 2px;
+    font-weight: 400;
+    margin-left: 6%;
+}
+
+#fiche div hr {
+    width: 90%;
+    margin-left: 5%;
+    background-color: black;
+    height: 0.4px;
+}
+
+#fiche div select {
+    background: none;
+    border: none;
+    font-size: 14px;
+    line-height: 2px;
+    font-weight: 400;
+    margin-left: 6%;
+    width: 85%;
+}
+
+#fiche div select:hover {
+    cursor: default;
+    color: black;
+    text-decoration: none;
+}
+
+#fiche div select option {
+    font-size: 14px;
+    line-height: 2px;
+    font-weight: 400;
+}
+
+#fiche div button {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+#fiche div button:hover {
+    cursor: pointer;
+}
+
+#fiche img {
+    background-color: #E30C14;
+    width: 52%;
+    border-radius: 15px;
+}
+
+footer {
+    border-radius: 30px;
+    margin: 0 2%;
+    background-color: #0F0F0F;
+    padding-bottom: 3%;
+}
+
+footer #messi {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer #messi #messi1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 3%;
+    width: 50%;
+}
+
+footer #messi #messi1 img {
+    width: 30%;
+    margin-bottom: 2.5%;
+}
+
+footer #messi #messi1 h1 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+}
+
+footer #messi #messi1 a {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 1%;
+    text-decoration: none;
+    color: white;
+}
+
+footer #messi #messi2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+footer #messi #messi2 a {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 1%;
+    text-decoration: none;
+    color: white;
+}
+
+footer #messi #messi3 {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 3% 5% 0;
+}
+
+footer #messi #messi3 a {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 1%;
+    text-decoration: none;
+    color: white;
+}
+
+footer #ronaldo {
+    display: flex;
+}
+
+footer #ronaldo h2 {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+    margin: 5% 0 1% 6%;
+}
+
+footer #ronaldo img {
+    width: 20px;
+    margin: 5% 0 1% 3%;
+}
+
+footer #ronaldo img:hover {
+    cursor: pointer;
+}
+
+footer hr {
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    height: 0.4px;
+}
+
+#neymar {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+    margin-left: 5%;
+}
